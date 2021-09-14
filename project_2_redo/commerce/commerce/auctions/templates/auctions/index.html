@@ -1,0 +1,17 @@
+{% extends "auctions/layout.html" %}
+
+{% block body %}
+    <h2>Active Listings</h2>
+
+    {% for l in listing %}
+      {% if l.active %}
+      <br><br>
+        <table>
+          <th><td><h3>{{l.name}}</h3></td></th>
+          <tr><td colspan="2"><img src="{{l.image.url}}" alt="{{l.name}}"></td></tr>
+          <tr><td>description:</td><td>{{l.des}}</td></tr>
+          <tr><td>sold by</td><td>{{l.seller}}</td></tr>
+        </table>
+      {% endif %}
+  {% endfor %}
+{% endblock %}

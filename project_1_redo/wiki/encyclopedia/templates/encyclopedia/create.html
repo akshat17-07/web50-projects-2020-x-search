@@ -1,0 +1,35 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    Create page
+{% endblock %}
+
+{% block body %}
+    {%if error%}
+      <div class="alert">
+        {{error}}
+      </div>
+    {%endif%}
+
+    <h1>Create page</h1>
+    <form method ="POST">
+      {% csrf_token%}
+      <table padding: 5px>
+        <tr>
+          <td><h2>Title</h2></td>
+          <td><h2><input type="text" name="name" value="{{name}}"></h2></td>
+        </tr>
+
+        <tr>
+          <td><h3>Content</h3></td>
+          <td><h4><textarea name="content" rows="8" cols="80">{{content}}</textarea></h4></td>
+        </tr>
+        <tr>
+        <td><input type="submit" value="create"></td>
+        </tr>
+
+      </table>
+
+    </form>
+
+{% endblock %}

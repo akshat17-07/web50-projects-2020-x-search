@@ -1,0 +1,1 @@
+a common word use to greet someone
