@@ -1,5 +1,5 @@
 <h1><a href="https://www.edx.org/course/cs50s-web-programming-with-python-and-javascript">CS 50 Web</a></h1>
-<img src=https://miro.medium.com/max/1400/1*IYCifTCCR2ah-79u94Z3wg.png">
+<img src="https://prod-discovery.edx-cdn.org/media/course/image/8f8e5124-1dab-47e6-8fa6-3fbdc0738f0a-762af069070e.small.jpg">
 <h4>
 CS50 is an online course by Harvard University and it is provided via platform edx.<br>
 </h4>
