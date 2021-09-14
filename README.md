@@ -30,7 +30,7 @@ I had created multiple project in it using Django.
 ## Instruction
 <ol>
   <li>First You should install python. Link to <a href="https://www.python.org/downloads/">Python Download</a></li>
-  <l1>Then you have to install pip. Link to <a href="https://pip.pypa.io/en/stable/cli/pip_install/">Pip Install</a></li>
-  <l1>Then you have to install Django. Link to <a herf"https://https://www.djangoproject.com/download/">Django Download</a></l1>
+  <li>Then you have to install pip. Link to <a href="https://pip.pypa.io/en/stable/cli/pip_install/">Pip Install</a></li>
+  <li>Then you have to install Django. Link to <a herf="https://https://www.djangoproject.com/download/">Django Download</a></li>
   
  </ol>
